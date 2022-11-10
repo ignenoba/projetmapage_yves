@@ -210,25 +210,20 @@ body {
 #mes6chambres
 {display: flex;
 	flex-direction: column;
-	background-color: aqua;
+	background-color:#F2F2F2;
 	border-radius: 5%;
-	margin: 0%;
-	width: 1080px;
-	align-items: left;
-	padding-left: 0%;
-	white-space:auto;
+	box-sizing: border-box;
+	padding-right: 160px;
+	padding-left: 30px;
 }
 #mes9chambres{
 	display:flex; 
-	background-color: rgb(135, 141, 222);
-	justify-content: space-around;
+	justify-content:space-between;
 }
 .ma3chambres{
 	display: flex;
 	flex-direction: column;
-	width: auto;
-	height: auto;
-	background-color:aqua;
+	background-color:#F2F2F2;
 	border-radius: 5%;
 	justify-items: normal;
 }
