@@ -1,229 +1,222 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="mapagestyle.css" />
-        <script src="https://kit.fontawesome.com/174fd1685f.js" crossorigin="anonymous"></script>
-        <title>ma page</title>
-    </head>
-    
-    <body>
-        <header class="header">
-            <h1 class="monbooki">Booki</h1>
-            <nav class="headernav" >
-                <a class="headernavok" href="#Hébergements" data-active="true">Hébergements</a>
-                <a class="headernavok" href="#Activités" data-active="true">Activités</a>   
-            </nav>
-        </header>
-      <section class="section1">
-            <header class="section1header">
-                <h1 class="section1headertitre">
-                    Trouvez votre hébergement pour des vacances de rêve
-                </h1>
-                <p class="section1headersoustitre">
-                    En plein centre de ville ou en pleine nature
-                </p>
-            </header> 
-            <form class="section1from" action="procedurefrom" method="get">
-                <samp class="section1fromspam">
-                    <i class="ma section1fromspam"></i>
-                </samp>
-                <input class="section1fromsection1input" type="section1" placeholder="Marseille,France" size="20">
-                <button class="section1fromsouinput">
-                    <span class="section1fromouinputtext">Rechercher</span>
-                <i class="section1fromspam ma"></i>
-                </button>
-            </form>
-            <div class="section1filtres">
-                <h2 class="section1filtrestitre">Filtres</h2>
-            </div> 
-          <div>  
-            <div>
-                <span class="section1filtrestitre">Economique</span>
-            </div>
-            <div>
-                <span class="section1filtrestitre">Familial</span>
-            </div>
-            <div>
-               <span class="section1filtrestitre">Romantique</span>
-            </div>
-            <div>
-                <span class="section1filtrestitre">Animaux autorisés</span>
-            </div>
-          </div> 
-          <div>
-            <p class="section1plus">
-                Plus de 500 logements sont disponibles dans cette ville
-            </p>
-          </div>
-        </section>
-        <section class="hébergement1" id="hébergement1">
-          <!-- ma section des chambres avec 9chambres -->
-      <div id="mes9chambres">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="mapagestyle.css" />
+  <script src="https://kit.fontawesome.com/174fd1685f.js" crossorigin="anonymous"></script>
+  <title>ma page</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="monbooki">Booki</h1>
+    <nav class="headernav">
+      <a class="headernavok" href="#Hébergements" data-active="true">Hébergements</a>
+      <a class="headernavok" href="#Activités" data-active="false">Activités</a>
+    </nav>
+  </header>
+  <section class="section1">
+    <header class="section1header">
+      <h1 class="section1headertitre">
+        Trouvez votre hébergement pour des vacances de rêve
+      </h1>
+      <p class="section1headersoustitre">
+        En plein centre de ville ou en pleine nature
+      </p>
+    </header>
+    <form class="section1from" action="procedurefrom" method="get">
+      <samp class="section1fromspam">
+        <i class="ma section1fromspam"></i>
+      </samp>
+      <input class="section1fromsection1input" type="section1" placeholder="Marseille,France" size="20">
+      <button class="section1fromsouinput">
+        <span class="section1fromouinputtext">Rechercher</span>
+        <i class="section1fromspam ma"></i>
+      </button>
+    </form>
+    <div class="section1filtres">
+      <h4>Filtres</h4>
+
+      <div class="blockfilter">
+
+        <span class="section1filtrestitre">Economique</span>
+        <span class="section1filtrestitre">Familial</span>
+        <span class="section1filtrestitre">Romantique</span>
+        <span class="section1filtrestitre">Animaux autorisés</span>
+      </div>
+    </div>
+    <div>
+      <p class="section1plus">
+        Plus de 500 logements sont disponibles dans cette ville
+      </p>
+    </div>
+  </section>
+  <section id="hébergement1">
+    <!-- ma section des chambres avec 9chambres -->
+    <div id="mes9chambres">
+      <div id="mes6chambres">
         <header class="titrechambrede6">
           <h2 class="herbergementtitreheader">Hébergement à Marseille</h2>
         </header>
-        <div class="mes6chambres">
-          <div class="mes3chambres">
-            <div class="machambre1">
-              <img src="hotel9.jpg" alt="l'image de machambre1">
-              <div>
-                <h3 class="nomdechambre1">Auberge la Cannebière</h3>
-                <p class="prixdechambre1"> Nuit à partir de 
-                  <strong class="euro1">25€</strong>
-                </p>
-              </div>
-            </div>
-            <div class="machambre1">
-              <img src="hotel9.jpg" alt="l'image de machambre1">
-              <div>
-                <h3 class="nomdechambre1">Hôtel du port</h3>
-                <p class="prixdechambre1"> Nuit à partir de 
-                  <strong class="euro1">52€</strong>
-                </p>
-              </div>
-            </div>
-            <div class="machambre1">
-              <img src="hotel9.jpg" alt="l'image de machambre1">
-              <div>
-                <h3 class="nomdechambre1">Hôtel les mouettes</h3>
-                <p class="prixdechambre1"> Nuit à partir de 
-                  <strong class="euro1">76€</strong>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="mes456chambres">
-            <div class="machambre4">
-              <img src="hotel9.jpg" alt="l'image de machambre4">
-              <div>
-                <h3 class="nomdechambre4">Hôtel de la mer</h3>
-                <p class="prixdechambre4"> Nuit à partir de 
-                  <strong class="euro4">46€</strong>
-                </p>
-              </div>
-            </div>
-            <div class="machambre4">
-              <img src="hotel9.jpg" alt="l'image de machambre5">
-              <div>
-                <h3 class="nomdechambre5">Auberge le Panier</h3>
-                <p class="prixdechambre5"> Nuit à partir de 
-                  <strong class="euro5">23€</strong>
-                </p>
-              </div>
-            </div>
-            <div class="machambre4">
-              <img src="hotel9.jpg" alt="l'image de machambre6">
-              <div>
-                <h3 class="nomdechambre6">Hôtel chez Amina</h3>
-                <p class="prixdechambre6">Nuit à partir de   
-                  <strong class="euro6">96€</strong>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="ma3chambres">
-          <header class="titrema3chambre">
-            <h2 class="hébergement3chambres">Les plus populaires</h2>
-          </header>
-          <div class="ma3chambre1">
-            <img src="hotel9.jpg" alt="l'image de ma3chambre1">
+
+        <div class="mes3chambres">
+          <div class="machambre1">
+            <img class="imgmes3" src="hotel9.jpg" alt="l'image de machambre1">
             <div>
-              <h3 class="nomdema3chambre1">Hôtel le soleil du matin</h3>
-              <p class="prixdema3chambre1"> Nuit à partir de 
-                <strong class="euro7">123€</strong>
+              <h3 class="titrech">Auberge la Cannebière</h3>
+              <p class="titrech"> Nuit à partir de
+                <strong class="titrech">25&euro;</strong>
               </p>
             </div>
           </div>
-          <div class="ma3chambre1">
-            <img src="hotel9.jpg" alt="l'image de ma3chambre2">
+          <div class="machambre1">
+            <img class="imgmes3" src="hotel8.jpg" alt="l'image de machambre1">
             <div>
-              <h3 class="nomdema3chambre2">Au coeur de l'eau Chambres d'Hôtel</h3>
-              <p class="prixdema3chambre2"> Nuit à partir de 
-                <strong class="euro8">71€</strong>
+              <h3 class="titrech">Hôtel du port</h3>
+              <p class="titrech"> Nuit à partir de
+                <strong class="titrech">52€</strong>
               </p>
             </div>
           </div>
-          <div class="ma3chambre1">
-            <img src="hotel9.jpg" alt="l'image de ma3chambre3">
+          <div class="machambre1">
+            <img class="imgmes3" src="hotel16.jpg" alt="l'image de machambre1">
             <div>
-              <h3 class="nomdema3chambre3">Hôtel Tout bleu et Blanc</h3>
-              <p class="prixdechambre3"> Nuit à partir de 
-                <strong class="euro9">65€</strong>
+              <h3 class="titrech">Hôtel les mouettes</h3>
+              <p class="titrech"> Nuit à partir de
+                <strong class="titrech">76€</strong>
               </p>
             </div>
+          </div>
         </div>
-     </div> 
-    </section>
-    <!-- fin de ma section hébergements -->
-    <section class="activité" id="activité">
-      <a href="#" class="nous contacter">Nous contacter <h2 class="activitéTitre">Activités à Marseille</h2>
-        <a href="#" class="activitéok activitéok1">
-          <div class="activitéimg">
-            <img class="activitéimgImg" src="hotel9.jpg"
-              alt="Un port de plaisance" />
+        <div class="mes456chambres">
+          <div class="machambre4">
+            <img class="imgmes3" src="hotel17.jpg" alt="l'image de machambre4">
+            <div>
+              <h3 class="titrech">Hôtel de la mer</h3>
+              <p class="titrech"> Nuit à partir de
+                <strong class="titrech">46€</strong>
+              </p>
+            </div>
           </div>
-          <h3 class="activitéokTitre">Vieux Port</h3>
-        </a>
-        <a href="#" class="activitéok activitéok2">
-          <div class="activitéimg">
-            <img class="activitéokimgImg" src="hotel9.jpg"
-              alt="Desert rocailleux beige " />
+          <div class="machambre4">
+            <img class="imgmes3" src="hotel28.jpg" alt="l'image de machambre5">
+            <div>
+              <h3 class="titrech">Auberge le Panier</h3>
+              <p class="titrech"> Nuit à partir de
+                <strong class="titrech">23€</strong>
+              </p>
+            </div>
           </div>
-          <h3 class="activitéokTitre">Fort de Pomègues</h3>
-        </a>     
-        <a href="#" class="activitéok activitéok3">
-          <div class="activitéimg">
-            <img class="activitéimgImg" src="hotel9.jpg"
-              alt="Un port de plaisance" />
+          <div class="machambre4">
+            <img class="imgmes3" src="hotel24.jpg" alt="l'image de machambre6">
+            <div>
+              <h3 class="titrech">Hôtel chez Amina</h3>
+              <p class="titrech">Nuit à partir de
+                <strong class="titrech">96€</strong>
+              </p>
+            </div>
           </div>
-          <h3 class="activitéokTitre">Parc National des Calanques</h3>
-        </a>
-        <a href="#" class="activitéok activitéok4">
-          <div class="activitéimg">
-            <img class="activitéokimgImg" src="hotel9.jpg"
-              alt="Grande ville assez plate" />
-          </div>
-          <h3 class="activitéokTitre">Notre-Dame-de-la-Garde</h3>
-        </a>  
-        <a href="#" class="activitéok activitéok5">
-          <div class="activitéimg">
-            <img class="activitéokimgImg" src="hotel9.jpg"
-              alt="Longue vue sur terre en premier plan" />
-          </div>
-          <h3 class="activitéokTitre">Île du Frioul</h3>
-        </a>
-        <a href="#" class="activitéok activitéok6">
-          <div class="activitéokimg">
-            <img class="activitéokimgImg" src="hotel9.jpg"
-              alt="batiment au pierres blanches" />
-          </div>
-          <h3 class="activitéokTitre">Parc Longchamp</h3>
-        </a>
-      </section>  
-  
-    <footer class="footer">
-      <div class="footer0">
-        <div class="footer1">
-          <h3 class="footerTitre">A propos</h3>
-          <a href="#" class="footerfooter">Fonctionnement du site</a>
-          <a href="#" class="footerfooter">Conditions générales de vente</a>
-          <a href="#" class="footerfooter">Données et confidentialités</a>
         </div>
-        <div class="footer1">
-          <h3 class="footerTitre">Nos hébergement</h3>
-          <a href="#" class="footerfooter">Charte qualité</a>
-          <a href="#" class="footerfooter">Soumettre votre hotel</a>
-        </div>
-        <div class="footer1">
-          <h3 class="footerTitre">Assitance</h3>
-          <a href="#" class="footerfooter">Centre d'aide</a>
-          <a href="#" class="footerfooter"> Nous contacter</a>
+        <div class="afficher plus">
+          <h3>Afficher plus</h3>
         </div>
       </div>
-    </footer>     
-    </section>
-    </body>
+      <div class="ma3chambres">
+        <header class="titrema3chambre">
+          <h2 class="hébergement3chambres">Les plus populaires</h2>
+        </header>
+        <div class="ma3chambre1">
+          <img class="imgma3" src="hotel22.jpg" alt="l'image de ma3chambre1">
+          <div>
+            <h3 class="titrech">Hôtel le soleil du matin</h3>
+            <p class="titrech"> Nuit à partir de
+              <strong class="titrech">123€</strong>
+            </p>
+          </div>
+        </div>
+        <div class="ma3chambre1">
+          <img class="imgma3" src="hotel21.jpg" alt="l'image de ma3chambre2">
+          <div>
+            <h3 class="titrech">Au coeur de l'eau Chambres d'Hôtel</h3>
+            <p class="titrech"> Nuit à partir de
+              <strong class="titrech">71€</strong>
+            </p>
+          </div>
+        </div>
+        <div class="ma3chambre1">
+          <img class="imgma3" src="hotel27.jpg" alt="l'image de ma3chambre3">
+          <div>
+            <h3 class="titrech">Hôtel Tout bleu et Blanc</h3>
+            <p class="titrech"> Nuit à partir de
+              <strong class="titrech">65€</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin de ma section hébergements -->
+  <section class="activité" id="activité">
+    <h2 class="activitéTitre">Activités à Marseille</h2>
+    <a href="#" class="activitéok1">
+      <div class="activitéimg">
+        <img class="activitéimgImg" src="hotel9.jpg" alt="Un port de plaisance" />
+      </div>
+      <h3 class="activitéokTitre">Vieux Port</h3>
+    </a>
+    <a href="#" class="activitéok2">
+      <div class="activitéimg">
+        <img class="activitéokimgImg" src="hotel9.jpg" alt="Desert rocailleux beige " />
+      </div>
+      <h3 class="activitéokTitre">Fort de Pomègues</h3>
+    </a>
+    <a href="#" class="activitéok3">
+      <div class="activitéimg">
+        <img class="activitéimgImg" src="hotel9.jpg" alt="Un port de plaisance" />
+      </div>
+      <h3 class="activitéokTitre">Parc National des Calanques</h3>
+    </a>
+    <a href="#" class="activitéok4">
+      <div class="activitéimg">
+        <img class="activitéokimgImg" src="hotel9.jpg" alt="Grande ville assez plate" />
+      </div>
+      <h3 class="activitéokTitre">Notre-Dame-de-la-Garde</h3>
+    </a>
+    <a href="#" class="activitéok5">
+      <div class="activitéimg">
+        <img class="activitéokimgImg" src="hotel9.jpg" alt="Longue vue sur terre en premier plan" />
+      </div>
+      <h3 class="activitéokTitre">Île du Frioul</h3>
+    </a>
+    <a href="#" class="activitéok6">
+      <div class="activitéokimg">
+        <img class="activitéokimgImg" src="hotel9.jpg" alt="batiment au pierres blanches" />
+      </div>
+      <h3 class="activitéokTitre">Parc Longchamp</h3>
+    </a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer0">
+      <div class="footer1">
+        <h3 class="footer1Titre">A propos</h3>
+        <a href="#" class="footerfooter">Fonctionnement du site</a>
+        <a href="#" class="footerfooter">Conditions générales de vente</a>
+        <a href="#" class="footerfooter">Données et confidentialités</a>
+      </div>
+      <div class="footer1">
+        <h3 class="footer1Titre">Nos hébergements</h3>
+        <a href="#" class="footerfooter">Charte qualité</a>
+        <a href="#" class="footerfooter">Soumettre votre hotel</a>
+      </div>
+      <div class="footer1">
+        <h3 class="footer1Titre">Assitance</h3>
+        <a href="#" class="footerfooter">Centre d'aide</a>
+        <a href="#" class="footerfooter"> Nous contacter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
-               
