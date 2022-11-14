@@ -1,7 +1,8 @@
 body {
 	font-family: "Raleway", "Sans serif";
 	margin: 0;
-	padding: 4% 4% 4% 4%;
+	padding: 10% 10% 10% 10%;
+
   }
 
   a {
@@ -213,12 +214,23 @@ body {
 	background-color:#F2F2F2;
 	border-radius: 5%;
 	box-sizing: border-box;
-	padding-right: 160px;
-	padding-left: 30px;
+	padding-right: 150px;
+	padding-left: 20px;
+	margin-right: 10px;
 }
 #mes9chambres{
 	display:flex; 
 	justify-content:space-between;
+}
+.hébergement3chambres{
+	padding-left: 20px;
+}
+.herbergementtitreheader{
+	padding-left: 20px;
+}
+.etoile{
+	color: #0065FC;
+	margin: 0 4rem 5rem 0;
 }
 .ma3chambres{
 	display: flex;
@@ -240,6 +252,9 @@ border-top-left-radius: 10%;
 width: 177px;
 height: 177px;
 }
+.etoileb{
+	color: #0065FC;
+}
 
 .activité{
 	display: grid;
@@ -249,6 +264,16 @@ height: 177px;
 .activitéTitre {
 	grid-column: 1/-1;
   }
+  .activitéimgImg1{
+	
+	width: 450px;
+	height:600px;
+}
+.activitéimgImg2{
+	
+	width: 280px;
+	height: 200px;
+}
 .activitéok1{
 	box-shadow: 0 0 20px #0000002e;
 	border-radius: 1rem;
@@ -329,7 +354,8 @@ height: 177px;
 	  grid-template-columns: 1fr;
 	  grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
 	}
-  }
+	
+	}
 .footer {
 	background-color: #F2F2F2;
 	width: 100%;
