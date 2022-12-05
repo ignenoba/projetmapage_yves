@@ -1,250 +1,270 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="mapagestyle.css" />
-  <script src="https://kit.fontawesome.com/174fd1685f.js" crossorigin="anonymous"></script>
-  <title>ma page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/174fd1685f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="oukstyle.css">
+    <title>projet booki</title>
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="monbooki">Booki</h1>
-    <nav class="headernav">
-      <a class="headernavok" href="#Hébergements" data-active="true">Hébergements</a>
-      <a class="headernavok" href="#Activités" data-active="false">Activités</a>
+    <nav>
+        <div class="flexbotew ">
+            <div class="marglogo"><img src="Booki.png" alt="monbooki"></div>
+            <div class="flexaround mesliens ">
+                <div class="liens flexcentre borok"><a class="deco  colorn " href="#"
+                        data-active="true">Hébergements</a></div>
+                <div class="liens flexcentre"><a class="deco colorn" href="#" data-active="false">Activités</a></div>
+            </div>
+        </div>
     </nav>
-  </header>
-  <section class="section1">
-    <header class="section1header">
-      <h1 class="section1headertitre">
-        Trouvez votre hébergement pour des vacances de rêve
-      </h1>
-      <p class="section1headersoustitre">
-        En plein centre de ville ou en pleine nature
-      </p>
+    <header>
+        <section>
+            <div>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <div class="bourrecher  flexcentre">
+                <div class="bacgris flexcentre iconerecher"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                <div>
+                    <input class="recher flexcentre bornon paginrecher" type="search" placeholder="Marseille, France">
+                </div>
+                <div class="backb flexcentre borecher">Rechercher</div>
+            </div>
+            <div class="filtre margfiltre">
+                <div class="margfiltretitre">
+                    <h3>Filtre</h3>
+                </div>
+                <div class="flexbotew filtretxticone"><i
+                        class="fa-solid filtreicone fa-money-check-dollar filtreicone flexcentre"></i>
+                    <div class="filtretxt flexcentre">Economiques</div>
+                </div>
+                <div class="flexbotew filtretxticone"><i class="fa-solid fa-child-reaching filtreicone flexcentre"></i>
+                    <div class="filtretxt flexcentre">Familiales</div>
+                </div>
+                <div class="flexbotew filtretxticone"><i class="fa-solid fa-heart filtreicone flexcentre"></i>
+                    <div class="filtretxt flexcentre">Romantiques</div>
+                </div>
+                <div class="flexbotew filtretxticone"><i class="fa-solid fa-dog filtreicone flexcentre"></i>
+                    <div class="filtretxt flexcentre">Animaux autorisés</div>
+                </div>
+            </div>
+            <div class="informa">
+                <div class="paricone flexcentre "><i class="fa-solid fa-info fa-xs colorok"></i></div>
+                <p>plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
     </header>
-    <form class="section1from" action="procedurefrom" method="get">
-      <samp class="section1fromspam">
-        <i class="fa-solid fa-location-dot"></i>
-      </samp>
-      <input class="section1fromsection1input" type="section1" placeholder="Marseille,France" size="20">
-      <button class="section1fromsouinput">
-        <span class="section1fromouinputtext">Rechercher</span>
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </button>
-    </form>
-    <div class="section1filtres">
-      <h4>Filtres</h4>
-
-      <div class="blockfilter">
-
-        <span class="section1filtrestitre">Economique</span>
-        <span class="section1filtrestitre">Familial</span>
-        <span class="section1filtrestitre">Romantique</span>
-        <span class="section1filtrestitre">Animaux autorisés</span>
-      </div>
-    </div>
-    <div>
-      <p class="section1plus">
-        Plus de 500 logements sont disponibles dans cette ville
-      </p>
-    </div>
-  </section>
-  <section id="hébergement1">
-    <!-- ma section des chambres avec 9chambres -->
-    <div id="mes9chambres">
-      <div id="mes6chambres">
-        <header class="titrechambrede6">
-          <h2 class="herbergementtitreheader">Hébergement à Marseille</h2>
-        </header>
-
-        <div class="mes3chambres">
-          <div class="machambre1">
-            <img class="imgmes3" src="hotel9.jpg" alt="l'image de machambre1">
-            <div>
-              <h3 class="titrech">Auberge la Cannebière</h3>
-              <p class="titrech"> Nuit à partir de
-                <strong class="titrech">25&euro;</strong>
-              </p>
-              <div class="etoileb">
-                &#9733;&#9733;&#9733;&#9733;&#10032;
-              </div>
-            </div>
-          </div>
-          <div class="machambre1">
-            <img class="imgmes3" src="hotel8.jpg" alt="l'image de machambre1">
-            <div>
-              <h3 class="titrech">Hôtel du port</h3>
-              <p class="titrech"> Nuit à partir de
-                <strong class="titrech">52€</strong>
-                <div class="etoileb">
-                  &#9733;&#9733;&#9733;&#9733;&#9733;
-              </div>
-              </p>
-            </div>
-          </div>
-          <div class="machambre1">
-            <img class="imgmes3" src="hotel16.jpg" alt="l'image de machambre1">
-            <div>
-              <h3 class="titrech">Hôtel les mouettes</h3>
-              <p class="titrech"> Nuit à partir de
-                <strong class="titrech">76€</strong>
-                <div class="etoileb">
-                  &#9733;&#9733;&#9733;&#9733;&#10032;
+    <section class="flexaround">
+        <div class="flexcoaround Hebergements bacgris compaherber">
+            <h3>Hébergements à Marseille</h3>
+            <div class="compa1 flexbotew">
+                <div class="fondherb flexcocentre">
+                    <div class="imgheber"></div>
+                    <div class="compadescrtionherb">
+                        <h3>Auberge de la cannebiére</h3>
+                        <p>Nuit à partir de 25€</p>
+                        <div><i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star cologr"></i>
+                        </div>
+                    </div>
                 </div>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="mes456chambres">
-          <div class="machambre4">
-            <img class="imgmes3" src="hotel17.jpg" alt="l'image de machambre4">
-            <div>
-              <h3 class="titrech">Hôtel de la mer</h3>
-              <p class="titrech"> Nuit à partir de
-                <strong class="titrech">46€</strong>
-              </p>
-              <div class="etoileb">
-                &#9733;&#9733;&#9733;&#10032;&#10032;
-              </div>
-            </div>
-          </div>
-          <div class="machambre4">
-            <img class="imgmes3" src="hotel28.jpg" alt="l'image de machambre5">
-            <div>
-              <h3 class="titrech">Auberge le Panier</h3>
-              <p class="titrech"> Nuit à partir de
-                <strong class="titrech">23€</strong>
-              </p>
-              <div class="etoileb">
-                &#9733;&#9733;&#9733;&#9733;&#10032;
-              </div>
-            </div>
-          </div>
-          <div class="machambre4">
-            <img class="imgmes3" src="hotel24.jpg" alt="l'image de machambre6">
-            <div>
-              <h3 class="titrech">Hôtel chez Amina</h3>
-              <p class="titrech">Nuit à partir de
-                <strong class="titrech">96€</strong>
-                <div class="etoileb">
-                  &#9733;&#9733;&#9733;&#9733;&#9733;
+                <div class="fondherb flexcocentre">
+                    <div class="imgheber1"></div>
+                    <div class="compadescrtionherb">
+                        <h3>Hôtel du port</h3>
+                        <p>Nuit à partir de 52€</p>
+                        <div class="colorok">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
                 </div>
-              </p>
+                <div class="fondherb flexcocentre">
+                    <div class="imgheber2"></div>
+                    <div class="compadescrtionherb">
+                        <h3>Hôtel les mouettes</h3>
+                        <p>Nuit à partir de 76€</p>
+                        <div><i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star cologr"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="compa2 flexbotew">
+                <div class="fondherb flexcocentre">
+                    <div class="imgheber3"></div>
+                    <div class="compadescrtionherb">
+                        <h3>Hôtel de la mer</h3>
+                        <p>Nuit à partir de 36€</p>
+                        <div><i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star cologr"></i>
+                            <i class="fa-solid fa-star cologr"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="fondherb flexcocentre">
+                    <div class="imgheber4"></div>
+                    <div class="compadescrtionherb">
+                        <h3>Auberge de le panier</h3>
+                        <p>Nuit à partir de 23€</p>
+                        <div><i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star cologr"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="fondherb flexcocentre">
+                    <div class="imgheber5"></div>
+                    <div class="compadescrtionherb">
+                        <h3>Hôtel chez Amina</h3>
+                        <p>Nuit à partir de 96€</p>
+                        <div class="colorok">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <p class="textgras">Afficher plus</p>
         </div>
-        <div class="afficher plus">
-          <h3>Afficher plus</h3>
+        <div class="lesplupo compapopul bacgris">
+            <div class="flexbotew">
+                <h2 class="textgras">Les plus populaires</h2>
+                <div><i class="fa-solid fa-star fa-2x"></i></div>
+            </div>
+            <div class="flexcoaround">
+                <div class="compapo12 fondpo flexcentre ">
+                    <div class="imgpo1"></div>
+                    <div class="compadetapo">
+                        <h3>Hôtel le soeil du matin</h3>
+                        <p>Nuit à partir de 128€</p>
+                        <div class="colorok">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" compapo12 fondpo flexcentre ">
+                    <div class="imgpo2"></div>
+                    <div class="compadetapo">
+                        <h3>Au coeur de l'eau chambre d'hôte</h3>
+                        <p>Nuit à partir de 71€</p>
+                        <div>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star cologr"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="compapo12 fondpo flexcentre ">
+                    <div class="imgpo"></div>
+                    <div class="compadetapo">
+                        <h3>Hôtel tout bleu et blanc</h3>
+                        <p>Nuit à partir de 68€</p>
+                        <div>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star colorok"></i>
+                            <i class="fa-solid fa-star cologr"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="ma3chambres">
-        <header class="titrema3chambre">
-          <h2 class="hébergement3chambres">Les plus populaires <p class="etoile">&#9733</p></h2>
-          
-        </header>
-        <div class="ma3chambre1">
-          <img class="imgma3" src="hotel22.jpg" alt="l'image de ma3chambre1">
-          <div>
-            <h3 class="titrech">Hôtel le soleil du matin</h3>
-            <p class="titrech"> Nuit à partir de
-              <strong class="titrech">123€</strong>
-              <div class="etoileb">
-                &#9733;&#9733;&#9733;&#9733;&#9733;
-              </div>
-            </p>
-          </div>
+    </section>
+    <section class="Activité">
+        <h2>Activités à Marseille</h2>
+        <div class="compaActivité flexbotew">
+            <div class="fondactivité flexcocentre">
+                <div class="imgActivité1"></div>
+                <div class="htitre titreact">
+                    <h3>Vieux port</h3>
+                </div>
+            </div>
+            <div class="compaActivité2356 flexcobotew">
+                <div class="fondactivité2356 flexcocentre">
+                    <div class="imgActivité2"></div>
+                    <div class="htitre titreact">
+                        <h3>Fort de Pomègues</h3>
+                    </div>
+                </div>
+                <div class="fondactivité2356 flexcocentre">
+                    <div class="imgActivité3"></div>
+                    <div class="htitre titreact">
+                        <h3>îles du Frioud</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="fondactivité flexcocentre">
+                <div class="imgActivité4"></div>
+                <div class="htitre titreact">
+                    <h3>Parc National des calanques</h3>
+                </div>
+            </div>
+            <div class="compaActivité2356 flexcobotew">
+                <div class="fondactivité2356 flexcocentre">
+                    <div class="imgActivité5"></div>
+                    <div class="htitre titreact">
+                        <h3>Notre-Dame-de-la-Garde</h3>
+                    </div>
+                </div>
+                <div class="fondactivité2356 flexcocentre">
+                    <div class="imgActivité6"></div>
+                    <div class="htitre titreact">
+                        <h3>Parc Longchamp</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="ma3chambre1">
-          <img class="imgma3" src="hotel21.jpg" alt="l'image de ma3chambre2">
-          <div>
-            <h3 class="titrech">Au coeur de l'eau Chambres d'Hôtel</h3>
-            <p class="titrech"> Nuit à partir de
-              <strong class="titrech">71€</strong>
-              <div class="etoileb">
-                &#9733;&#9733;&#9733;&#9733;&#9733;
-              </div>
-            </p>
-          </div>
+    </section>
+    <footer>
+        <div class="pieds bacgris flexbotew">
+            <div class="tailcompa margcompa1">
+                <h3>A propos</h3>
+                <p>Fonctionnement du site</p>
+                <p>Conditions générales de vente</p>
+                <p>Données et confidentialités</p>
+            </div>
+            <div class="tailcompa">
+                <h3>Nos hébergements</h3>
+                <p>Charte qualité</p>
+                <p>Soumettre votre hôtel</p>
+            </div>
+            <div class="tailcompa margcompa2">
+                <h3>Assistance</h3>
+                <p>centre d'aide</p>
+                <p>Nous contacter</p>
+            </div>
         </div>
-        <div class="ma3chambre1">
-          <img class="imgma3" src="hotel27.jpg" alt="l'image de ma3chambre3">
-          <div>
-            <h3 class="titrech">Hôtel Tout bleu et Blanc</h3>
-            <p class="titrech"> Nuit à partir de
-              <strong class="titrech">65€</strong>
-              <div class="etoileb">
-                &#9733;&#9733;&#9733;&#9733;&#10032;
-              </div>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- fin de ma section hébergements -->
-  <section class="activité" id="activité">
-    <h2 class="activitéTitre">Activités à Marseille</h2>
-    <a href="#" class="activitéok1">
-      <div class="activitéimgImg1">
-        <img class="activitéimgImg1" src="vieuxport.jpg" alt="Un port de plaisance" />
-      </div>
-      <h3 class="activitéokTitre">Vieux Port</h3>
-    </a>
-    <a href="#" class="activitéok2">
-      <div class="activitéimg">
-        <img class="activitéimgImg2" src="ville10.jpg" alt="Desert rocailleux beige " />
-      </div>
-      <h3 class="activitéokTitre">Fort de Pomègues</h3>
-    </a>
-    <a href="#" class="activitéok3">
-      <div class="activitéimgImg1">
-        <img class="activitéimgImg1" src="ville6.jpg" alt="Un port de plaisance" />
-      </div>
-      <h3 class="activitéokTitre">Parc National des Calanques</h3>
-    </a>
-    <a href="#" class="activitéok4">
-      <div class="activitéimg">
-        <img class="activitéimgImg" src="dame.jpg" alt="Grande ville assez plate" />
-      </div>
-      <h3 class="activitéokTitre">Notre-Dame-de-la-Garde</h3>
-    </a>
-    <a href="#" class="activitéok5">
-      <div class="activitéimg">
-        <img class="activitéimgImg" src="ville1.jpg" alt="Longue vue sur terre en premier plan" />
-      </div>
-      <h3 class="activitéokTitre">Île du Frioul</h3>
-    </a>
-    <a href="#" class="activitéok6">
-      <div class="activitéokimg">
-        <img class="activitéimgImg2" src="longchamp.jpg" alt="batiment au pierres blanches" />
-      </div>
-      <h3 class="activitéokTitre">Parc Longchamp</h3>
-    </a>
-  </section>
-
-  <footer class="footer">
-    <div class="footer0">
-      <div class="footer1">
-        <h3 class="footer1Titre">A propos</h3>
-        <a href="#" class="footerfooter">Fonctionnement du site</a>
-        <a href="#" class="footerfooter">Conditions générales de vente</a>
-        <a href="#" class="footerfooter">Données et confidentialités</a>
-      </div>
-      <div class="footer1">
-        <h3 class="footer1Titre">Nos hébergements</h3>
-        <a href="#" class="footerfooter">Charte qualité</a>
-        <a href="#" class="footerfooter">Soumettre votre hotel</a>
-      </div>
-      <div class="footer1">
-        <h3 class="footer1Titre">Assitance</h3>
-        <a href="#" class="footerfooter">Centre d'aide</a>
-        <a href="#" class="footerfooter"> Nous contacter</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </body>
 
 </html>

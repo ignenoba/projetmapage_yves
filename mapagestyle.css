@@ -1,406 +1,420 @@
-body {
-	font-family: "Raleway", "Sans serif";
-	margin: 0;
-	padding: 10% 10% 10% 10%;
-
-  }
-
-  a {
-	color: inherit;
-	text-decoration: none;
-  }
-  .header {
-	display: grid;
-	align-items: center;
-	max-width: 1440px;
-	margin: auto;
-  }
-  .monbooki {
-	grid-area: logo;
-	padding: 0 2rem;
-	height: 2.813rem;
-	color: #0065FC;
-  }
-  .headernav {
-	display: flex;
-	align-items: center;
-	grid-area: navbar;
-  }
-  .headernavok {
-	padding: 2rem;
-	font-weight: 500;
-	text-align: center;
-	transition-duration: 0.1s;
-	border-top: 3px transparent solid;
-	border-bottom: 3px transparent solid;
-  }
-  .headernavok[data-active=true] {
-	color: #0065FC;
-  }
-  
-@media screen and (min-width: 601px) {
-	.header {
-	  grid-template-columns: auto 1fr auto auto;
-	  grid-template-areas: "logo . navbar button";
-	}
-	.headernavok[data-active=true] {
-	  border-top: 3px solid #0065FC;
-	}
+html,body{
+    font-family: raleway;
 }
-@media screen and (max-width: 600px) {
-		.header {
-		  grid-template-columns: auto 1fr auto;
-		  grid-template-areas: "logo . button" "navbar navbar navbar";
-		}
-		.monbooki{
-			order: 1;
-		}
-		.headernav {
-			order: 2;
-		  }
-		  .headernavok {
-			border-top: none;
-			border-bottom: 3px solid #F2F2F2;
-			width: 50%;
-		  }
-		  .headernavok[data-active=true] {
-			border-bottom-color: #0065FC;
-		  }
-   }
-.main {
-    max-width: 1440px;
-	margin: auto;
-	padding: 0 2rem;
-	box-sizing: border-box;
-	  }
-
-	  .section1headertitre {
-		margin-bottom: 0.5rem;
-	  }
-	  .section1headersoustitre {
-		margin-top: 0;
-	  }
-	  .section1from {
-		display: inline-flex;
-		max-width: 100%;
-		overflow: auto;
-	  }
-	  .section1fromspam {
-		background-color: #F2F2F2;
-		padding: 1rem 1.25rem;
-		border-radius: 1rem 0 0 1rem;
-		text-align: center;
-	  }
-	  .section1fromspam {
-		margin-left: 0.1rem;
-	  }
-	  .section1fromsection1input {
-		border-right: none;
-		border-left: none;
-		border-top: #F2F2F2 1px solid;
-		border-bottom: #F2F2F2 1px solid;
-		padding: 0 1.5rem;
-		box-sizing: border-box;
-		width: 14rem;
-		font-size: 1rem;
-		font-weight: bold;
-		font-family: "Raleway", "Sans serif";
-	  }
-	  .section1fromsection1input::placeholder {
-		font-family: "Raleway", "Sans serif";
-		font-size: 1rem;
-		color: #00000069;
-	  }
-	  .section1fromsouinput {
-		background-color: #0065FC;
-		color: white;
-		font-weight: bold;
-		border: none;
-		border-radius: 0 1rem 1rem 0;
-		padding: 0 1.5rem;
-		font-family: "Raleway", "Sans serif";
-		font-size: 1rem;
-		cursor: pointer;
-	  }
-	  .section1filtres {
-		display: flex;
-		margin-left: 10rem;
-	  }
-	  .blockfilter{
-		
-		display: flex;
-	
-	  }
-	  .section1filtrestitre {
-		margin-left: 2rem;
-		margin-right: 2rem;
-		align-items: center;
-		border: 2px solid #d9d9d9;
-		border-radius: 2rem;
-		cursor: pointer;
-		transition-duration: 0.1s;
-		font-weight: bold;
-		max-width: max-content;
-		min-height: auto;
-		padding-left: 2rem;
-		padding-right: 2rem;
-	  }
-	  .section1filtrestitre:last-child {
-		margin-right: 0;
-	  }
-	  .section1filtrestitre:hover {
-		background-color: #26508b;
-		transform: scale(1.015);
-	  }
-	  .section1fromspam{
-		background-color: #DEEBFF;
-		border-radius: 100%;
-		height: 3rem;
-		width: 3rem;
-		min-height: 3.5rem;
-		min-width: 3.5rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin: -2px;
-	  }
-	  .section1filtresfitreicone {
-		color: blue;
-	  }
-	  .section1filtrestitre {
-		margin-left: 0.1rem;
-	  }
-	
-	  .mes3chambres{
-		display: flex;
-		border-radius: 4%;
-		margin:auto;
-	  }
-	  .ma3chambre1{
-	   padding: 0%;
-	   margin: 4%;
-	  }
-	  .mes456chambres{
-		display: flex;
-		border-radius: 4%;
-		margin: auto;
-	  }
-	  .machambre1{
-		border-radius: 10%;
-		background-color: white;
-		padding: 1.5%;
-		margin: 1%;
-	  }
-	  .machambre4{
-		border-radius: 10%;
-		background-color: white;
-		padding: 1.5%;
-		margin: 1%;
-		 }
-	  	.mes3chambres{
-			display: flex;
-			border-radius: 4%;
-            margin: auto;
-		}
-.imgmes3{
-	border-top-left-radius: 10%;
-	border-top-right-radius:10% ;
-	width: 280px;
-	height: 177px;
+.flexcentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#mes6chambres
-{display: flex;
-	flex-direction: column;
-	background-color:#F2F2F2;
-	border-radius: 5%;
-	box-sizing: border-box;
-	padding-right: 150px;
-	padding-left: 20px;
-	margin-right: 10px;
+.flexaround{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
-#mes9chambres{
-	display:flex; 
-	justify-content:space-between;
+.flexbotew{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.hébergement3chambres{
-	padding-left: 20px;
+.colorok{
+    color:#0065fc
 }
-.herbergementtitreheader{
-	padding-left: 20px;
+.colorbclair{
+    color: #deebff;
 }
-.etoile{
-	color: #0065FC;
-	margin: 0 4rem 5rem 0;
+.colorn{
+    color: black;
 }
-.ma3chambres{
-	display: flex;
-	flex-direction: column;
-	background-color:#F2F2F2;
-	border-radius: 5%;
-	justify-items: normal;
+.bacgris{
+    background-color: #f2f2f2;
 }
-.ma3chambre1{
-	display: flex;
-	background-color: white;
-	padding: 1.5%;
-	border-radius: 10%;
-	
+.backb{
+    background-color:#0065fc;
 }
-.imgma3{
-border-bottom-left-radius: 10%;
-border-top-left-radius: 10%;
-width: 177px;
-height: 177px;
+.bacclair{
+    background-color:  #deebff;
 }
-.etoileb{
-	color: #0065FC;
+.bacgris{
+    background-color:  #f2f2f2;
+}
+.colorn{
+    color: black;
+}
+.cologr{
+    color: #f2f2f2;
 }
 
-.activité{
-	display: grid;
-	column-gap: 2rem;
-	margin: 4rem 0;
+.mesliens{
+    width: 20%;
+    
 }
-.activitéTitre {
-	grid-column: 1/-1;
-  }
-  .activitéimgImg1{
-	
-	width: 450px;
-	height:600px;
+.deco{
+    text-decoration: none;
 }
-.activitéimgImg2{
-	
-	width: 280px;
-	height: 200px;
+.borok{
+    border-top: 2px solid transparent;
 }
-.activitéok1{
-	box-shadow: 0 0 20px #0000002e;
-	border-radius: 1rem;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	transition-duration: 0.1s;
-	grid-row: 2/7;
-    grid-column: 1/2;
+.borok:hover{
+    border-top: 2px solid #0065fc;
+    cursor: pointer;
 }
-.activitéok2{
-	box-shadow: 0 0 20px #0000002e;
-	border-radius: 1rem;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	transition-duration: 0.1s;
-	grid-column: 2/3;
-    grid-row: 2/5;
+.borok:hover>a{
+    color: #0065fc;
 }
-.activitéok3{
-	box-shadow: 0 0 20px #0000002e;
-	border-radius: 1rem;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	transition-duration: 0.1s;
-	grid-column: 3/4;
-    grid-row: 2/7;
+.bornon{
+    border: none;
 }
-.activitéok4{
-	box-shadow: 0 0 20px #0000002e;
-	border-radius: 1rem;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	transition-duration: 0.1s;
-	grid-column: 4/5;
-    grid-row: 2/3;
+.liens{
+    width:140px;
+    height: 99px;
 }
-.activitéok5{
-	box-shadow: 0 0 20px #0000002e;
-	border-radius: 1rem;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	transition-duration: 0.1s;
-	grid-column: 2/3;
-    grid-row: 6/7;
+.marglogo{
+    border-bottom: 7px;
+    width:120px;
+    height:50px;
+}.textgras{
+    font-weight: bold;
 }
-.activitéok6{
-	box-shadow: 0 0 20px #0000002e;
-	border-radius: 1rem;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	transition-duration: 0.1s;
-	grid-column: 4/5;
-    grid-row: 4/7;
+
+/*css header*/
+
+.bourrecher{
+   width: 400px;
+   border-radius: 10px;
+   border: 0.5px solid #f2f2f2; 
 }
-@media (max-width: 1100px) {
-	.activité {
-	  row-gap: 2rem;
-	  grid-template-columns: repeat(3, 1fr);
-	  grid-template-rows: auto 12rem 12rem;
-	}
+.iconerecher{
+    height: 50px;
+    width: 50px;
+    border-radius:10px 0 0 10px ;
 }
-@media (max-width: 925px) {
-	.activité {
-	  row-gap: 2rem;
-	  grid-template-columns: repeat(2, 1fr);
-	  grid-template-rows: auto 12rem 12rem 12rem;
-	}
-  }
-  @media (max-width: 650px) {
-	.activité {
-	  row-gap: 2rem;
-	  grid-template-columns: 1fr;
-	  grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
-	}
-	
-	}
-.footer {
-	background-color: #F2F2F2;
-	width: 100%;
+.recher{
+    height: 50px;
+    width:230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
 }
-.footer0 {
-  
-	display: flex;
-	max-width: 100%;
-	width: 1440px;
-	margin: auto;
-	padding: 0 2rem;
-	box-sizing: border-box;
+.paginrecher{
+   padding-left: 20px; 
 }
-.footer1 {
-	width: 30%;
-	padding: 2rem 2rem;
+.borecher{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
 }
-  .footerfooter {
-	display: block;
-	margin: 1rem 0;
+.borecher:hover{
+    color: #0065fc;
+    background-color: #f2f2f2;
 }
-.footerfooter:hover {
-	text-decoration: underline;
+
+/*css filtres*/
+
+.filtre{
+    display: flex;
+    align-content:center;
 }
-@media (max-width: 750px) {
-	.footer0 {
-	  flex-direction: column;
-	  padding: 2rem;
-	}
-	.footer1 {
-	  width: 100%;
-	  padding: 0;
-	  margin: 1rem 0;
-	}
-	.footer1:first-child {
-		margin-top: 0;
-	}
-	  .footer1:last-child {
-		margin-bottom: 0;
-    }
-	  .footer1Titre {
-		margin: 0;
-	}
-	  .footerfooter:last-child {
-		margin-bottom: 0;
-	}
+.margfiltre{
+   margin-top: 50px;
+   margin-bottom: 40px;
 }
-	
+.margfiltretitre{
+    margin-right:20px;
+}
+.filtretxticone{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtretxticone:hover > .filtretxt{
+    color: #0065fc;
+}
+.filtretxticone:hover > .filtreicone{
+    color: white;
+    background-color: #0065fc;
+}
+.filtretxt{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.filtreicone{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height:52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+/*information*/
+.informa{
+    display: flex;
+    align-items: center;
+}
+.paricone{
+    width: 20px;
+    height: 20px;
+    border: #f2f2f2;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+/*section hergement*/
+.Hebergements{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.compaherber{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fondherb{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+.fondherb:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.compa1{
+    margin-bottom: 10px;
+
+}
+.compa2{
+    margin-top: 10px;
+}
+.compadescrtionherb{
+    width: 90%;
+}
+.flexcocentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexcoaround{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexcobotew{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lesplupo{
+    flex:1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px; 
+}
+
+.imgheber{
+   background-image: url("Hotelok1.jpg");
+   background-position:center;
+   background-size: cover;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
+}
+
+.imgheber1{
+    background-image: url("Hotelok2.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgheber2{
+    background-image: url("Hotelok3.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgheber3{
+    background-image: url("hotel22.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgheber4{
+    background-image: url("hotel17.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgheber5{
+    background-image: url("hotel16.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+ }
+/*css plus populaires*/
+
+.compapopul{
+    padding-left:20px;
+    padding-right: 20px;
+}
+.fondpo{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.fondpo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.compapo12{
+    margin-bottom: 22px;
+}
+.compadetapo{
+    width: 60%;
+    padding-left: 5%;
+}
+.imgpo{
+    background-image: url("hotel9.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+ }
+ .imgpo1{
+    background-image: url("hotel22.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+ }
+ .imgpo2{
+    background-image: url("hotel17.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+ }
+/*css Activités*/
+.Activité{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.compaActivité{
+    width: 100%;
+    height:600px;
+}
+.fondactivité{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow:5px 5px 5px 1px #f2f2f2;
+}
+.fondactivité:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.fondactivité2356{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow:5px 5px 5px 1px #f2f2f2;
+}
+.fondactivité2356:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.compaActivité2356{
+    width: 23%;
+    height:600px;
+}
+.htitre{
+    height: 70px;
+}
+.titreact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:5%;
+    width: 95%;
+}
+.imgActivité1{
+    background-image: url("vieuxport.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivité2{
+    background-image: url("tchad.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivité3{
+    background-image: url("new1.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivité4{
+    background-image: url("new3.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivité5{
+    background-image: url("notredame.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivité6{
+    background-image: url("ville10.jpg");
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+/*css footer*/
+.pieds{
+    height: 300px;
+    margin-top: 100px;
+}
+.tailcompa{
+    height: 150px;
+}
+.margcompa1{
+    margin-left: 15%;
+}
+.margcompa2{
+    margin-right: 15%;
+}
