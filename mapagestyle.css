@@ -218,55 +218,28 @@ html,body{
     margin-left: 20px;
     border-radius: 10px; 
 }
-
-.imgheber{
-   background-image: url("Hotelok1.jpg");
-   background-position:center;
-   background-size: cover;
-   width: 100%;
-   height: 120px;
-   border-radius: 15px 15px 0 0;
-}
-
-.imgheber1{
-    background-image: url("Hotelok2.jpg");
-    background-position:center;
-    background-size: cover;
+.proimg{
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
+}
+.imgheber{
+   background-image: url("Hotelok1.jpg");
+}
+.imgheber1{
+    background-image: url("Hotelok2.jpg");
  }
  .imgheber2{
     background-image: url("Hotelok3.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
  }
  .imgheber3{
     background-image: url("hotel22.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
  }
  .imgheber4{
     background-image: url("hotel17.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
  }
  .imgheber5{
     background-image: url("hotel16.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
  }
 /*css plus populaires*/
 
@@ -291,29 +264,19 @@ html,body{
     width: 60%;
     padding-left: 5%;
 }
-.imgpo{
-    background-image: url("hotel9.jpg");
-    background-position:center;
-    background-size: cover;
+.ensmbimg{
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
+}
+.imgpo{
+    background-image: url("hotel9.jpg");
  }
  .imgpo1{
     background-image: url("hotel22.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
  }
  .imgpo2{
     background-image: url("hotel17.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
  }
 /*css Activités*/
 .Activité{
@@ -356,53 +319,44 @@ html,body{
     padding-left:5%;
     width: 95%;
 }
-.imgActivité1{
-    background-image: url("vieuxport.jpg");
-    background-position:center;
-    background-size: cover;
+.ensimgA14{
     width: 100%;
     height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+.imgActivité1{
+    background-image: url("vieuxport.jpg");
+}
+.ensimgA23{
     border-radius: 15px 15px 0 0;
 }
 .imgActivité2{
     background-image: url("tchad.jpg");
-    background-position:center;
-    background-size: cover;
     width: 100%;
     height: 250px;
-    border-radius: 15px 15px 0 0;
 }
 .imgActivité3{
     background-image: url("new1.jpg");
-    background-position:center;
-    background-size: cover;
     width: 100%;
     height: 150px;
-    border-radius: 15px 15px 0 0;
 }
 .imgActivité4{
     background-image: url("new3.jpg");
+}
+.ensimgA56{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+.bactimg{
     background-position:center;
     background-size: cover;
-    width: 100%;
-    height: 530px;
-    border-radius: 15px 15px 0 0;
 }
 .imgActivité5{
     background-image: url("notredame.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    border-radius: 15px 15px 0 0;
 }
 .imgActivité6{
     background-image: url("ville10.jpg");
-    background-position:center;
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    border-radius: 15px 15px 0 0;
 }
 /*css footer*/
 .pieds{
