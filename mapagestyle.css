@@ -224,22 +224,22 @@ html,body{
     border-radius: 15px 15px 0 0;
 }
 .imgheber{
-   background-image: url("Hotelok1.jpg");
+   background-image: url("Imageprojet/Hotelok1.jpg")
 }
 .imgheber1{
-    background-image: url("Hotelok2.jpg");
+    background-image: url("Imageprojet/Hotelok2.jpg");
  }
  .imgheber2{
-    background-image: url("Hotelok3.jpg");
+    background-image: url("Imageprojet/Hotelok3.jpg");
  }
  .imgheber3{
-    background-image: url("hotel22.jpg");
+    background-image: url("Imageprojet/hotel22.jpg");
  }
  .imgheber4{
-    background-image: url("hotel17.jpg");
+    background-image: url("Imageprojet/hotel17.jpg");
  }
  .imgheber5{
-    background-image: url("hotel16.jpg");
+    background-image: url("Imageprojet/hotel16.jpg");
  }
 /*css plus populaires*/
 
@@ -270,13 +270,13 @@ html,body{
     border-radius: 15px 0 0 15px;
 }
 .imgpo{
-    background-image: url("hotel9.jpg");
+    background-image: url("Imageprojet/hotel9.jpg");
  }
  .imgpo1{
-    background-image: url("hotel22.jpg");
+    background-image: url("Imageprojet/hotel22.jpg");
  }
  .imgpo2{
-    background-image: url("hotel17.jpg");
+    background-image: url("Imageprojet/hotel17.jpg");
  }
 /*css Activités*/
 .Activité{
@@ -325,23 +325,23 @@ html,body{
     border-radius: 15px 15px 0 0;
 }
 .imgActivité1{
-    background-image: url("vieuxport.jpg");
+    background-image: url("Imageprojet/vieuxport.jpg");
 }
 .ensimgA23{
     border-radius: 15px 15px 0 0;
 }
 .imgActivité2{
-    background-image: url("tchad.jpg");
+    background-image: url("Imageprojet/tchad.jpg");
     width: 100%;
     height: 250px;
 }
 .imgActivité3{
-    background-image: url("new1.jpg");
+    background-image: url("Imageprojet/new1.jpg");
     width: 100%;
     height: 150px;
 }
 .imgActivité4{
-    background-image: url("new3.jpg");
+    background-image: url("Imageprojet/new3.jpg");
 }
 .ensimgA56{
     width: 100%;
@@ -353,10 +353,10 @@ html,body{
     background-size: cover;
 }
 .imgActivité5{
-    background-image: url("notredame.jpg");
+    background-image: url("Imageprojet/notredame.jpg");
 }
 .imgActivité6{
-    background-image: url("ville10.jpg");
+    background-image: url("Imageprojet/ville10.jpg");
 }
 /*css footer*/
 .pieds{
