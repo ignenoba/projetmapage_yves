@@ -43,9 +43,11 @@ html,body{
 .cologr{
     color: #f2f2f2;
 }
-
+.mesliens12{
+    margin-left: 60%;
+}
 .mesliens{
-    width: 20%;
+    width: 100%;
     
 }
 .deco{
@@ -371,4 +373,104 @@ html,body{
 }
 .margcompa2{
     margin-right: 15%;
+}
+/*resposive*/
+@media  screen and (max-width: 1295px) {
+    .mesliens12{
+        margin-left: 35%;
+    }
+    .compadescrtionherb{
+        min-height: 150px;
+    }
+    .Hebergements{
+        min-height: auto;
+        padding: 20px;
+    }
+    .lesplupo{
+        min-height: auto;
+        padding: 20px;
+    }
+    
+    .pot{
+            margin-top: 0%;
+        }
+}
+@media screen and (max-width:990px){
+    .filtredpl{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtretxticone{
+        margin-bottom: 20px;
+    }
+    #hebergements{
+        flex-direction: column-reverse;
+        width: 100%
+    }
+    .lesplupo{
+        width: 90%;
+        flex: none;
+        margin-left: 0;
+        padding: 5%;
+    }
+    .Hebergements{
+        width: 90%;
+        margin-right:0;
+        flex: none;
+        margin-top: 40px;
+        padding: 5%;
+    }
+}
+@media screen and (max-width:770px){
+    .mesliens{
+        width: 90%;
+    }
+    .mesliens12{
+        margin-left: 20%;
+    }
+    .Hebergements{
+        height: auto;
+    }
+    .compa1{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .compa2{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .fondherb{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .compadescrtionherb{
+        min-height: auto;
+    }
+    .compaActivité{
+        flex-direction: column;
+        height: auto;
+    }
+    .fondactivité{
+    width: 100%;
+    margin-bottom: 50px;
+    }
+    .compaActivité2356 {
+        width: 100%;
+        height: auto;
+    }
+    .fondactivité2356{
+        margin-bottom:50px;
+    }
+    .imgActivité1,.imgActivité2,.imgActivité3,.imgActivité4,.imgActivité5,.imgActivité6{
+        height: 200px;
+    }
+    .pieds{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-left: 25px;
+    }
+    .margcompa1{
+        margin-left: 0;
+    }
 }
